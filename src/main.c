@@ -9,7 +9,7 @@
 
 int main(void)
 {
-    char **word_array = my_str_to_word_array_synthesis("salut sa va ?");
+    char **word_array = my_str_to_word_array_synthesis("salut ça va ?");
     int i = 0;
     while (word_array[i] != NULL) {
         printf("[%s]\n", word_array[i]);
